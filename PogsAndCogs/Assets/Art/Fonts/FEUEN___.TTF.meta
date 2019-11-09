@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 9461ed48e1b364a4db6c17bd4e66f68c
+guid: b3db22170d6caba42a5289b15dd05897
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
-  fontSize: 180
-  forceTextureCase: -1
+  fontSize: 16
+  forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Shadow of Xizor
+  fontName: Feuerfeste
   fontNames:
-  - Shadow of Xizor
+  - Feuerfeste
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
