@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     //Movement
     public float speed;
     public float jumpForce;
-    float moveVelocity;
+    public float moveVelocity;
     public float slideSlow;
     private bool isSliding;
     private bool isFacingRight;
@@ -46,11 +46,16 @@ public class PlayerController : MonoBehaviour
 
         //Left Right Movement / sliding
         moveVelocity = Input.GetAxis("Horizontal") * speed;
-        isFacingRight = (moveVelocity > 0 ? true : false); // where else to update this??
+        if (moveVelocity > 0) {
+            isFacingRight = true;
+        } 
+        if (moveVelocity < 0) {
+            isFacingRight = false;
+        }
 
         // move or slide
         if (isSliding) {
-            int dir = (isFacingRight ? 1 : -1);
+            int dir = GetDirMult();
             rbody.velocity = new Vector2(rbody.velocity.x - slideSlow * Time.deltaTime * dir, rbody.velocity.y);
         } else {
             rbody.velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
@@ -87,5 +92,9 @@ public class PlayerController : MonoBehaviour
         //collider
         BoxCollider2D col = GetComponent<BoxCollider2D>();
         col.size = new Vector2(col.size.x, col.size.y * 2f);
+    }
+
+    public int GetDirMult () {
+        return ((isFacingRight ? 1 : -1));
     }
 }
