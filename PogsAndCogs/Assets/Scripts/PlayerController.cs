@@ -11,9 +11,9 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float jumpForce;
     float moveVelocity;
-
-    //Grounded Vars
-    bool grounded = true;
+    public float slideSlow;
+    private bool isSliding;
+    private bool isFacingRight;
 
     void Start () 
     {
@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
     void HandleInput () 
     {
         //Jumping
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W))
         {
             if (checkGrounded())
             {
@@ -36,10 +36,40 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        //Left Right Movement
-        moveVelocity = 0;
+        // init sliding motion
+        if (Input.GetKey(KeyCode.Space) && !isSliding) {
+            EnterSlide();
+        }
+        if (Input.GetKeyUp(KeyCode.Space) && isSliding) {
+            ExitSlide();
+        }
+
+        //Left Right Movement / sliding
         moveVelocity = Input.GetAxis("Horizontal") * speed;
-        GetComponent<Rigidbody2D>().velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
+        isFacingRight = (moveVelocity > 0 ? true : false); // where else to update this??
+
+        // move or slide
+        if (isSliding) {
+            int dir = (isFacingRight ? 1 : -1);
+            rbody.velocity = new Vector2(rbody.velocity.x - slideSlow * Time.deltaTime * dir, rbody.velocity.y);
+        } else {
+            rbody.velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
+        }
+
+        // check click
+        if (Input.GetMouseButtonDown(0)) {
+            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
+
+            RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero, Mathf.Infinity, LayerMask.GetMask("Clickable"));
+
+            if (hit.collider != null) {
+                IClickable clickable = hit.collider.gameObject.GetComponent<IClickable>();
+                if (clickable != null) {
+                    clickable.Activate();
+                }
+            }
+        }
     }
         
     //Check if Grounded - ripped from DioTheHero - Harrold
@@ -54,4 +84,32 @@ public class PlayerController : MonoBehaviour
 
         return (collision.collider != null);
     }
+
+    void EnterSlide () {
+        isSliding = true;
+
+        //collider
+        BoxCollider2D col = GetComponent<BoxCollider2D>();
+        col.size = new Vector2(col.size.x, col.size.y * 0.5f);
+
+        // speed boost
+        rbody.velocity = new Vector2(rbody.velocity.x * 1.2f, rbody.velocity.y);
+    }
+
+    void ExitSlide () {
+        isSliding = false;
+
+        //collider
+        BoxCollider2D col = GetComponent<BoxCollider2D>();
+        col.size = new Vector2(col.size.x, col.size.y * 2f);
+    }
 }
+
+/*
+    slide:
+        on activate:
+            initial speed boost
+            cannot accelerate
+            slowly come to a stop
+            shrink hitbox
+*/
