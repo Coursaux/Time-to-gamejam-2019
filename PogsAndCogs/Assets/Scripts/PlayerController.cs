@@ -55,6 +55,21 @@ public class PlayerController : MonoBehaviour
         } else {
             rbody.velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
         }
+
+        // check click
+        if (Input.GetMouseButtonDown(0)) {
+            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
+
+            RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero, Mathf.Infinity, LayerMask.GetMask("Clickable"));
+
+            if (hit.collider != null) {
+                IClickable clickable = hit.collider.gameObject.GetComponent<IClickable>();
+                if (clickable != null) {
+                    clickable.Activate();
+                }
+            }
+        }
     }
         
     //Check if Grounded - ripped from DioTheHero - Harrold

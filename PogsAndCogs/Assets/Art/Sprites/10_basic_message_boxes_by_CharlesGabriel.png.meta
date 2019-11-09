@@ -1,0 +1,1249 @@
+fileFormatVersion: 2
+guid: b1b392171fcbd1142987671bb344adc1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -667228130818228280
+    second: 10_basic_message_boxes_by_CharlesGabriel_0
+  - first:
+      213: 2946006932941164955
+    second: 10_basic_message_boxes_by_CharlesGabriel_1
+  - first:
+      213: 2101544004827362260
+    second: 10_basic_message_boxes_by_CharlesGabriel_2
+  - first:
+      213: 8050739248965923957
+    second: 10_basic_message_boxes_by_CharlesGabriel_3
+  - first:
+      213: -8027482733447494100
+    second: 10_basic_message_boxes_by_CharlesGabriel_4
+  - first:
+      213: 3130792667947469175
+    second: 10_basic_message_boxes_by_CharlesGabriel_5
+  - first:
+      213: 3198334698482860189
+    second: 10_basic_message_boxes_by_CharlesGabriel_6
+  - first:
+      213: 7980608862010455916
+    second: 10_basic_message_boxes_by_CharlesGabriel_7
+  - first:
+      213: -3749015192167634514
+    second: 10_basic_message_boxes_by_CharlesGabriel_8
+  - first:
+      213: -3299060970609651447
+    second: 10_basic_message_boxes_by_CharlesGabriel_9
+  - first:
+      213: 3073417674658988885
+    second: 10_basic_message_boxes_by_CharlesGabriel_10
+  - first:
+      213: -4760705794646329409
+    second: 10_basic_message_boxes_by_CharlesGabriel_11
+  - first:
+      213: 4633198954742961809
+    second: 10_basic_message_boxes_by_CharlesGabriel_12
+  - first:
+      213: 7263604427078360365
+    second: 10_basic_message_boxes_by_CharlesGabriel_13
+  - first:
+      213: -214064581529403482
+    second: 10_basic_message_boxes_by_CharlesGabriel_14
+  - first:
+      213: -4923604348370643427
+    second: 10_basic_message_boxes_by_CharlesGabriel_15
+  - first:
+      213: 9173541424580266913
+    second: 10_basic_message_boxes_by_CharlesGabriel_16
+  - first:
+      213: 6765847874729596110
+    second: 10_basic_message_boxes_by_CharlesGabriel_17
+  - first:
+      213: -3900252330760794663
+    second: 10_basic_message_boxes_by_CharlesGabriel_18
+  - first:
+      213: 794420985318611756
+    second: 10_basic_message_boxes_by_CharlesGabriel_19
+  - first:
+      213: -7025003327830730175
+    second: 10_basic_message_boxes_by_CharlesGabriel_20
+  - first:
+      213: 2182521273938061018
+    second: 10_basic_message_boxes_by_CharlesGabriel_21
+  - first:
+      213: -888051032910230372
+    second: 10_basic_message_boxes_by_CharlesGabriel_22
+  - first:
+      213: 5343804254095160192
+    second: 10_basic_message_boxes_by_CharlesGabriel_23
+  - first:
+      213: -8303477413010896953
+    second: 10_basic_message_boxes_by_CharlesGabriel_24
+  - first:
+      213: 1774080688894151243
+    second: 10_basic_message_boxes_by_CharlesGabriel_25
+  - first:
+      213: 8185311876557281480
+    second: 10_basic_message_boxes_by_CharlesGabriel_26
+  - first:
+      213: -90544895816937807
+    second: 10_basic_message_boxes_by_CharlesGabriel_27
+  - first:
+      213: 1989298697034816302
+    second: 10_basic_message_boxes_by_CharlesGabriel_28
+  - first:
+      213: -5829508828335197802
+    second: 10_basic_message_boxes_by_CharlesGabriel_29
+  - first:
+      213: 1709150365259981181
+    second: 10_basic_message_boxes_by_CharlesGabriel_30
+  - first:
+      213: 4325720014108431754
+    second: 10_basic_message_boxes_by_CharlesGabriel_31
+  - first:
+      213: -3285475562871223606
+    second: 10_basic_message_boxes_by_CharlesGabriel_32
+  - first:
+      213: 3854307603504051385
+    second: 10_basic_message_boxes_by_CharlesGabriel_33
+  - first:
+      213: 5139890002984353994
+    second: 10_basic_message_boxes_by_CharlesGabriel_34
+  - first:
+      213: -6333277530265653260
+    second: 10_basic_message_boxes_by_CharlesGabriel_35
+  - first:
+      213: -2153058941919627184
+    second: 10_basic_message_boxes_by_CharlesGabriel_36
+  - first:
+      213: -3107594449200935053
+    second: 10_basic_message_boxes_by_CharlesGabriel_37
+  - first:
+      213: -3542385134413389831
+    second: 10_basic_message_boxes_by_CharlesGabriel_38
+  - first:
+      213: -3554604110996877870
+    second: 10_basic_message_boxes_by_CharlesGabriel_39
+  - first:
+      213: -3873709011415483147
+    second: 10_basic_message_boxes_by_CharlesGabriel_40
+  - first:
+      213: -3220770966947329041
+    second: 10_basic_message_boxes_by_CharlesGabriel_41
+  - first:
+      213: 1540873880173672576
+    second: 10_basic_message_boxes_by_CharlesGabriel_42
+  - first:
+      213: -7018931616486591470
+    second: 10_basic_message_boxes_by_CharlesGabriel_43
+  - first:
+      213: 3011511044220156582
+    second: 10_basic_message_boxes_by_CharlesGabriel_44
+  - first:
+      213: 679465382520717513
+    second: 10_basic_message_boxes_by_CharlesGabriel_45
+  - first:
+      213: -2550087662072438871
+    second: 10_basic_message_boxes_by_CharlesGabriel_46
+  - first:
+      213: 232441668965411944
+    second: 10_basic_message_boxes_by_CharlesGabriel_47
+  - first:
+      213: -9191461400481243516
+    second: 10_basic_message_boxes_by_CharlesGabriel_48
+  - first:
+      213: 6360239030310994985
+    second: 10_basic_message_boxes_by_CharlesGabriel_49
+  - first:
+      213: 193384004993677764
+    second: 10_basic_message_boxes_by_CharlesGabriel_50
+  - first:
+      213: 7804814768933395489
+    second: 10_basic_message_boxes_by_CharlesGabriel_51
+  - first:
+      213: 3930823656713949702
+    second: 10_basic_message_boxes_by_CharlesGabriel_52
+  - first:
+      213: 8744804422828147329
+    second: 10_basic_message_boxes_by_CharlesGabriel_53
+  - first:
+      213: 2661638022953462196
+    second: 10_basic_message_boxes_by_CharlesGabriel_54
+  - first:
+      213: 2133459855417983085
+    second: 10_basic_message_boxes_by_CharlesGabriel_55
+  - first:
+      213: -251768535805525988
+    second: 10_basic_message_boxes_by_CharlesGabriel_56
+  - first:
+      213: -7313784407333145759
+    second: 10_basic_message_boxes_by_CharlesGabriel_57
+  - first:
+      213: -5835232010709369694
+    second: 10_basic_message_boxes_by_CharlesGabriel_58
+  - first:
+      213: 1689965070819845582
+    second: 10_basic_message_boxes_by_CharlesGabriel_59
+  - first:
+      213: -2369695993019668719
+    second: 10_basic_message_boxes_by_CharlesGabriel_60
+  - first:
+      213: -4358178464398505438
+    second: 10_basic_message_boxes_by_CharlesGabriel_61
+  - first:
+      213: 2374032606342217384
+    second: 10_basic_message_boxes_by_CharlesGabriel_62
+  - first:
+      213: -2746187161801838367
+    second: 10_basic_message_boxes_by_CharlesGabriel_63
+  - first:
+      213: 5828250857553284430
+    second: 10_basic_message_boxes_by_CharlesGabriel_64
+  - first:
+      213: 8742416279401661684
+    second: 10_basic_message_boxes_by_CharlesGabriel_65
+  - first:
+      213: 2038431721840531208
+    second: 10_basic_message_boxes_by_CharlesGabriel_66
+  - first:
+      213: -283337588149507875
+    second: 10_basic_message_boxes_by_CharlesGabriel_67
+  - first:
+      213: 1528496629057356531
+    second: 10_basic_message_boxes_by_CharlesGabriel_68
+  - first:
+      213: -161585879577155263
+    second: 10_basic_message_boxes_by_CharlesGabriel_69
+  - first:
+      213: 6614961702319063975
+    second: 10_basic_message_boxes_by_CharlesGabriel_70
+  - first:
+      213: 6662833112967126933
+    second: 10_basic_message_boxes_by_CharlesGabriel_71
+  - first:
+      213: 8868079871319989152
+    second: 10_basic_message_boxes_by_CharlesGabriel_72
+  - first:
+      213: -3487544469770009547
+    second: 10_basic_message_boxes_by_CharlesGabriel_73
+  - first:
+      213: -2060283743098905143
+    second: 10_basic_message_boxes_by_CharlesGabriel_74
+  - first:
+      213: 413599427771371639
+    second: 10_basic_message_boxes_by_CharlesGabriel_75
+  - first:
+      213: -2660766922102783308
+    second: 10_basic_message_boxes_by_CharlesGabriel_76
+  - first:
+      213: -2767330530351208998
+    second: 10_basic_message_boxes_by_CharlesGabriel_77
+  - first:
+      213: -4494328515873228225
+    second: 10_basic_message_boxes_by_CharlesGabriel_78
+  - first:
+      213: 6315435464335375732
+    second: 10_basic_message_boxes_by_CharlesGabriel_79
+  - first:
+      213: -4198072659347824264
+    second: 10_basic_message_boxes_by_CharlesGabriel_80
+  - first:
+      213: -4739344175590696411
+    second: 10_basic_message_boxes_by_CharlesGabriel_81
+  - first:
+      213: 8241991969182456621
+    second: 10_basic_message_boxes_by_CharlesGabriel_82
+  - first:
+      213: 5097047454873412552
+    second: 10_basic_message_boxes_by_CharlesGabriel_83
+  - first:
+      213: 4845532601169656779
+    second: 10_basic_message_boxes_by_CharlesGabriel_84
+  - first:
+      213: 4748301576971210353
+    second: 10_basic_message_boxes_by_CharlesGabriel_85
+  - first:
+      213: 8186298628314436164
+    second: 10_basic_message_boxes_by_CharlesGabriel_86
+  - first:
+      213: 1976967402566040697
+    second: 10_basic_message_boxes_by_CharlesGabriel_87
+  - first:
+      213: 5918197120200176529
+    second: 10_basic_message_boxes_by_CharlesGabriel_88
+  - first:
+      213: -4564438416324642446
+    second: 10_basic_message_boxes_by_CharlesGabriel_89
+  - first:
+      213: -8337123313877310048
+    second: 10_basic_message_boxes_by_CharlesGabriel_90
+  - first:
+      213: -5459614121130338498
+    second: 10_basic_message_boxes_by_CharlesGabriel_91
+  - first:
+      213: 7806803510979464415
+    second: 10_basic_message_boxes_by_CharlesGabriel_92
+  - first:
+      213: 4343696571326673299
+    second: 10_basic_message_boxes_by_CharlesGabriel_93
+  - first:
+      213: 3303401350356668388
+    second: 10_basic_message_boxes_by_CharlesGabriel_94
+  - first:
+      213: 2867539660362864745
+    second: 10_basic_message_boxes_by_CharlesGabriel_95
+  - first:
+      213: 213410760139697851
+    second: 10_basic_message_boxes_by_CharlesGabriel_96
+  - first:
+      213: 5612003055035671006
+    second: 10_basic_message_boxes_by_CharlesGabriel_97
+  - first:
+      213: 2711965890038736024
+    second: 10_basic_message_boxes_by_CharlesGabriel_98
+  - first:
+      213: -4280984756568588287
+    second: 10_basic_message_boxes_by_CharlesGabriel_99
+  - first:
+      213: 565749506225513989
+    second: 10_basic_message_boxes_by_CharlesGabriel_100
+  - first:
+      213: 7004964499091727283
+    second: 10_basic_message_boxes_by_CharlesGabriel_101
+  - first:
+      213: -2805694339317815774
+    second: 10_basic_message_boxes_by_CharlesGabriel_102
+  - first:
+      213: -6712160281763665768
+    second: 10_basic_message_boxes_by_CharlesGabriel_103
+  - first:
+      213: 4444912444667544005
+    second: 10_basic_message_boxes_by_CharlesGabriel_104
+  - first:
+      213: 967629009294766966
+    second: 10_basic_message_boxes_by_CharlesGabriel_105
+  - first:
+      213: -2352647486478515619
+    second: 10_basic_message_boxes_by_CharlesGabriel_106
+  - first:
+      213: 5505299892147585216
+    second: 10_basic_message_boxes_by_CharlesGabriel_107
+  - first:
+      213: -3897006023175595553
+    second: 10_basic_message_boxes_by_CharlesGabriel_108
+  - first:
+      213: 3391347591827404008
+    second: 10_basic_message_boxes_by_CharlesGabriel_109
+  - first:
+      213: 7436638859021411857
+    second: 10_basic_message_boxes_by_CharlesGabriel_110
+  - first:
+      213: 262716004145954627
+    second: 10_basic_message_boxes_by_CharlesGabriel_111
+  - first:
+      213: -5063104249097714722
+    second: 10_basic_message_boxes_by_CharlesGabriel_112
+  - first:
+      213: -661991224805181624
+    second: 10_basic_message_boxes_by_CharlesGabriel_113
+  - first:
+      213: -389886003102396641
+    second: 10_basic_message_boxes_by_CharlesGabriel_114
+  - first:
+      213: -5746823183848951569
+    second: 10_basic_message_boxes_by_CharlesGabriel_115
+  - first:
+      213: 3089664667034830576
+    second: 10_basic_message_boxes_by_CharlesGabriel_116
+  - first:
+      213: -4115536325560805643
+    second: 10_basic_message_boxes_by_CharlesGabriel_117
+  - first:
+      213: 484434427315486180
+    second: 10_basic_message_boxes_by_CharlesGabriel_118
+  - first:
+      213: 5679889156474492194
+    second: 10_basic_message_boxes_by_CharlesGabriel_119
+  - first:
+      213: -841990955054764751
+    second: 10_basic_message_boxes_by_CharlesGabriel_120
+  - first:
+      213: -1558646094628694167
+    second: 10_basic_message_boxes_by_CharlesGabriel_121
+  - first:
+      213: 2855952681727128763
+    second: 10_basic_message_boxes_by_CharlesGabriel_122
+  - first:
+      213: 4844906396548729167
+    second: 10_basic_message_boxes_by_CharlesGabriel_123
+  - first:
+      213: -8100333104163281878
+    second: 10_basic_message_boxes_by_CharlesGabriel_124
+  - first:
+      213: -213533821549514766
+    second: 10_basic_message_boxes_by_CharlesGabriel_125
+  - first:
+      213: -99373878733051093
+    second: 10_basic_message_boxes_by_CharlesGabriel_126
+  - first:
+      213: 6465118545878492613
+    second: 10_basic_message_boxes_by_CharlesGabriel_127
+  - first:
+      213: -7173661539016857906
+    second: 10_basic_message_boxes_by_CharlesGabriel_128
+  - first:
+      213: 2573482972513953029
+    second: 10_basic_message_boxes_by_CharlesGabriel_129
+  - first:
+      213: -937766833956603355
+    second: 10_basic_message_boxes_by_CharlesGabriel_130
+  - first:
+      213: 856493159950495819
+    second: 10_basic_message_boxes_by_CharlesGabriel_131
+  - first:
+      213: -3340234500998059508
+    second: 10_basic_message_boxes_by_CharlesGabriel_132
+  - first:
+      213: 5174838507514626956
+    second: 10_basic_message_boxes_by_CharlesGabriel_133
+  - first:
+      213: 6975090208087302386
+    second: 10_basic_message_boxes_by_CharlesGabriel_134
+  - first:
+      213: -7023907275431479849
+    second: 10_basic_message_boxes_by_CharlesGabriel_135
+  - first:
+      213: 5915398337159038334
+    second: 10_basic_message_boxes_by_CharlesGabriel_136
+  - first:
+      213: -4916012310441434634
+    second: 10_basic_message_boxes_by_CharlesGabriel_137
+  - first:
+      213: -6465691186315396584
+    second: 10_basic_message_boxes_by_CharlesGabriel_138
+  - first:
+      213: 7422774325945400858
+    second: 10_basic_message_boxes_by_CharlesGabriel_139
+  - first:
+      213: 7104704347949588936
+    second: 10_basic_message_boxes_by_CharlesGabriel_140
+  - first:
+      213: -3849657659788455540
+    second: 10_basic_message_boxes_by_CharlesGabriel_141
+  - first:
+      213: -1559312728390282318
+    second: 10_basic_message_boxes_by_CharlesGabriel_142
+  - first:
+      213: -1187990620832616504
+    second: 10_basic_message_boxes_by_CharlesGabriel_143
+  - first:
+      213: 1428501787991315619
+    second: 10_basic_message_boxes_by_CharlesGabriel_144
+  - first:
+      213: -2544042378820048956
+    second: 10_basic_message_boxes_by_CharlesGabriel_145
+  - first:
+      213: -3490955275091289632
+    second: 10_basic_message_boxes_by_CharlesGabriel_146
+  - first:
+      213: -4092729493230145001
+    second: 10_basic_message_boxes_by_CharlesGabriel_147
+  - first:
+      213: -7120864501695735090
+    second: 10_basic_message_boxes_by_CharlesGabriel_148
+  - first:
+      213: 1200094109204705251
+    second: 10_basic_message_boxes_by_CharlesGabriel_149
+  - first:
+      213: 7145678885349883376
+    second: 10_basic_message_boxes_by_CharlesGabriel_150
+  - first:
+      213: 556065750204366242
+    second: 10_basic_message_boxes_by_CharlesGabriel_151
+  - first:
+      213: 5941564646801839685
+    second: 10_basic_message_boxes_by_CharlesGabriel_152
+  - first:
+      213: 1392353332405914169
+    second: 10_basic_message_boxes_by_CharlesGabriel_153
+  - first:
+      213: 6127205461981662435
+    second: 10_basic_message_boxes_by_CharlesGabriel_154
+  - first:
+      213: 5324654771398611445
+    second: 10_basic_message_boxes_by_CharlesGabriel_155
+  - first:
+      213: -5916377405362964042
+    second: 10_basic_message_boxes_by_CharlesGabriel_156
+  - first:
+      213: 6444725079646707134
+    second: 10_basic_message_boxes_by_CharlesGabriel_157
+  - first:
+      213: -4800018495191776648
+    second: 10_basic_message_boxes_by_CharlesGabriel_158
+  - first:
+      213: 2822116123400390676
+    second: 10_basic_message_boxes_by_CharlesGabriel_159
+  - first:
+      213: 2729020489432543767
+    second: 10_basic_message_boxes_by_CharlesGabriel_160
+  - first:
+      213: -5530334755690538466
+    second: 10_basic_message_boxes_by_CharlesGabriel_161
+  - first:
+      213: -4905110363854764703
+    second: 10_basic_message_boxes_by_CharlesGabriel_162
+  - first:
+      213: 92359792217851408
+    second: 10_basic_message_boxes_by_CharlesGabriel_163
+  - first:
+      213: 7661143434152709442
+    second: 10_basic_message_boxes_by_CharlesGabriel_164
+  - first:
+      213: 1635502349376500061
+    second: 10_basic_message_boxes_by_CharlesGabriel_165
+  - first:
+      213: -3656313181368103741
+    second: 10_basic_message_boxes_by_CharlesGabriel_166
+  - first:
+      213: -3193788630788708908
+    second: 10_basic_message_boxes_by_CharlesGabriel_167
+  - first:
+      213: -8119667569074638479
+    second: 10_basic_message_boxes_by_CharlesGabriel_168
+  - first:
+      213: -9144409508730659742
+    second: 10_basic_message_boxes_by_CharlesGabriel_169
+  - first:
+      213: 895913036362161808
+    second: 10_basic_message_boxes_by_CharlesGabriel_170
+  - first:
+      213: -858006672608793438
+    second: 10_basic_message_boxes_by_CharlesGabriel_171
+  - first:
+      213: 3552455915613896201
+    second: 10_basic_message_boxes_by_CharlesGabriel_172
+  - first:
+      213: 1528165538987801469
+    second: 10_basic_message_boxes_by_CharlesGabriel_173
+  - first:
+      213: -9110225942131827693
+    second: 10_basic_message_boxes_by_CharlesGabriel_174
+  - first:
+      213: 780771945678230018
+    second: 10_basic_message_boxes_by_CharlesGabriel_175
+  - first:
+      213: 1414194522893475912
+    second: 10_basic_message_boxes_by_CharlesGabriel_176
+  - first:
+      213: -6225212582413822857
+    second: 10_basic_message_boxes_by_CharlesGabriel_177
+  - first:
+      213: 7016823072345409347
+    second: 10_basic_message_boxes_by_CharlesGabriel_178
+  - first:
+      213: 6330307667876111884
+    second: 10_basic_message_boxes_by_CharlesGabriel_179
+  - first:
+      213: -3419096435031151995
+    second: 10_basic_message_boxes_by_CharlesGabriel_180
+  - first:
+      213: -2793178061268323969
+    second: 10_basic_message_boxes_by_CharlesGabriel_181
+  - first:
+      213: -9070309513324679126
+    second: 10_basic_message_boxes_by_CharlesGabriel_182
+  - first:
+      213: -7542629200852510369
+    second: 10_basic_message_boxes_by_CharlesGabriel_183
+  - first:
+      213: 2593800451958493877
+    second: 10_basic_message_boxes_by_CharlesGabriel_184
+  - first:
+      213: 5429514383261234601
+    second: 10_basic_message_boxes_by_CharlesGabriel_185
+  - first:
+      213: 834341660679600858
+    second: 10_basic_message_boxes_by_CharlesGabriel_186
+  - first:
+      213: 7955850840444802442
+    second: 10_basic_message_boxes_by_CharlesGabriel_187
+  - first:
+      213: -6751310453191177204
+    second: 10_basic_message_boxes_by_CharlesGabriel_188
+  - first:
+      213: 8295088732506894707
+    second: 10_basic_message_boxes_by_CharlesGabriel_189
+  - first:
+      213: -1189676723248616645
+    second: 10_basic_message_boxes_by_CharlesGabriel_190
+  - first:
+      213: 7564569358331088777
+    second: 10_basic_message_boxes_by_CharlesGabriel_191
+  - first:
+      213: -767731591734426129
+    second: 10_basic_message_boxes_by_CharlesGabriel_192
+  - first:
+      213: -223313119970764184
+    second: 10_basic_message_boxes_by_CharlesGabriel_193
+  - first:
+      213: -7801702986616802237
+    second: 10_basic_message_boxes_by_CharlesGabriel_194
+  - first:
+      213: 8253465609764572147
+    second: 10_basic_message_boxes_by_CharlesGabriel_195
+  - first:
+      213: -5638797567666869130
+    second: 10_basic_message_boxes_by_CharlesGabriel_196
+  - first:
+      213: -3309346883245609035
+    second: 10_basic_message_boxes_by_CharlesGabriel_197
+  - first:
+      213: 442397070706124137
+    second: 10_basic_message_boxes_by_CharlesGabriel_198
+  - first:
+      213: 8827920037656401065
+    second: 10_basic_message_boxes_by_CharlesGabriel_199
+  - first:
+      213: -6982099203026083286
+    second: 10_basic_message_boxes_by_CharlesGabriel_200
+  - first:
+      213: -244462674693598053
+    second: 10_basic_message_boxes_by_CharlesGabriel_201
+  - first:
+      213: -5348786776782628691
+    second: 10_basic_message_boxes_by_CharlesGabriel_202
+  - first:
+      213: -1331092656125313153
+    second: 10_basic_message_boxes_by_CharlesGabriel_203
+  - first:
+      213: -8296706561867677449
+    second: 10_basic_message_boxes_by_CharlesGabriel_204
+  - first:
+      213: -3976770469153259212
+    second: 10_basic_message_boxes_by_CharlesGabriel_205
+  - first:
+      213: -5556743610642243742
+    second: 10_basic_message_boxes_by_CharlesGabriel_206
+  - first:
+      213: 5001638612508398098
+    second: 10_basic_message_boxes_by_CharlesGabriel_207
+  - first:
+      213: 2903353360700162420
+    second: 10_basic_message_boxes_by_CharlesGabriel_208
+  - first:
+      213: 6306046769053987503
+    second: 10_basic_message_boxes_by_CharlesGabriel_209
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 920
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372b1a845253a2940982a7b21a7ca37b
+      internalID: -667228130818228280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 920
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146aa409b030e80439f74dc2b0c390cd
+      internalID: 2946006932941164955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995bb2c5c59436d43a7421e1108e5d10
+      internalID: 2101544004827362260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 840
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8244659829b298344b5b01015ff2f10a
+      internalID: 8050739248965923957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be800af9c0ec0374e939146c4b74e9b0
+      internalID: -8027482733447494100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 760
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa57bb8582d3974abcba4acf8f8b9fc
+      internalID: 3130792667947469175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406ea2b2f140e2c4dbd76ee923d6110e
+      internalID: 3198334698482860189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 680
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6feadf9036b48499f19809ef199829
+      internalID: 7980608862010455916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855c3bacaa1a65148a533c5c07f7c117
+      internalID: -3749015192167634514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 600
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c813e21e1d9973d4499afed50bf311b3
+      internalID: -3299060970609651447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bb0e27521f3e34db0c43de11719b27
+      internalID: 3073417674658988885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 520
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4a2beaf34704a4496c2990cd49af84
+      internalID: -4760705794646329409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c169a3e0aecd0243a4fcc8e1391da49
+      internalID: 4633198954742961809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 440
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be10b87bfda190b4d80070bcb3ef2e3d
+      internalID: 7263604427078360365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69e9ae95ed00154284a55f7a1aedf15
+      internalID: -214064581529403482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 360
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0839e7fb6ff15b14195f631ab874383b
+      internalID: -4923604348370643427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8f1562bd7143c42aab81cef2baa7b8
+      internalID: 9173541424580266913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 280
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41075baf74ebc9a4db8c795593df2ca2
+      internalID: 6765847874729596110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f16a0408fc082f42888964eedc25583
+      internalID: -3900252330760794663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 200
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ab5abe9320c3d48a2fd2ef4030fbb2
+      internalID: 794420985318611756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08937e3d8ca698f4491e433cb7b66e85
+      internalID: -7025003327830730175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 120
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b529b96063f584d8670dea3b12f842
+      internalID: 2182521273938061018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5baca7ae3cda5154385f3a7adf454db0
+      internalID: -888051032910230372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_basic_message_boxes_by_CharlesGabriel_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 40
+        width: 320
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa2ef9c2678f324c9085d7ddcc02880
+      internalID: 5343804254095160192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
