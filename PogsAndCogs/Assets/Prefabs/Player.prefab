@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 1599270970267987820}
   - component: {fileID: 1599270970267987821}
   - component: {fileID: -1088751299482325860}
-  - component: {fileID: 2249700930222084705}
   - component: {fileID: 1946167584687262898}
+  - component: {fileID: 4796238690449819597}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -147,20 +147,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.64, y: 0.64}
   m_EdgeRadius: 0
---- !u!114 &2249700930222084705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1599270970267987817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e6d5531bba3c9148b58c982065955a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  totalHealth: 100
-  currentHealth: 100
 --- !u!114 &1946167584687262898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,3 +162,17 @@ MonoBehaviour:
   wrenchHit: {fileID: 5626098996002757779, guid: 2cada9928a89df74ab9ca3adaf0d54a6,
     type: 3}
   attackSpeed: 0.5
+--- !u!114 &4796238690449819597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599270970267987817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c292e98408c4c0d4291ddd92a00a000a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalHealth: 100
+  currentHealth: 100

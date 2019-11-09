@@ -45,7 +45,7 @@ public class ChaseEnemy : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        HealthManager targetHealth = collision.gameObject.GetComponent<HealthManager>();
+        HealthManager targetHealth = collision.gameObject.GetComponent<GeneralHealth>();
 
         if(collision.gameObject.tag == "Player" && targetHealth != null)
         {
