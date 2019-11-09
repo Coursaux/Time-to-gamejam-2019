@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WrenchHitBoxScript : MonoBehaviour
 {
+    public int atkDamage;
     public float lifeTime = 0.2f;
     private float spawnTime;
 
