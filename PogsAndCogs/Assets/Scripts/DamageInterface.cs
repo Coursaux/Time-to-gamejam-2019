@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChaseAi : MonoBehaviour
+public class DamageInterface : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
