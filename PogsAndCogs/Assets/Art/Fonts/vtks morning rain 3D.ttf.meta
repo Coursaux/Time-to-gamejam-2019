@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9461ed48e1b364a4db6c17bd4e66f68c
+guid: 20671dc8731ea1b49803508a18b57b95
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Shadow of Xizor
+  fontName: vtks morning rain 3D
   fontNames:
-  - Shadow of Xizor
+  - vtks morning rain 3D
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
