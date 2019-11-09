@@ -131,9 +131,9 @@ GameObject:
   - component: {fileID: 17344831}
   - component: {fileID: 17344830}
   - component: {fileID: 17344832}
-  m_Layer: 0
-  m_Name: New Sprite
-  m_TagString: Untagged
+  m_Layer: 8
+  m_Name: Floor
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -376,6 +376,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1599270970267987821, guid: 6dc2d13d158920440b077bcb7cda3ea2,
+        type: 3}
+      propertyPath: jumpForce
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1599270970267987821, guid: 6dc2d13d158920440b077bcb7cda3ea2,
+        type: 3}
+      propertyPath: speed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6dc2d13d158920440b077bcb7cda3ea2, type: 3}
