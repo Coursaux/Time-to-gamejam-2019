@@ -2,34 +2,32 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthManager : MonoBehaviour
+public abstract class HealthManager : MonoBehaviour
 {
     public int totalHealth;
     public int currentHealth;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void TakeDamage(int damage)
+    public virtual void TakeDamage(int damage)
     {
         currentHealth -= damage;
+
+        die();
     }
 
-    public void AddHealth(int health)
+    public virtual void AddHealth(int health)
     {
         currentHealth += health;
         if (currentHealth > totalHealth)
         {
             currentHealth = totalHealth;
+        }
+    }
+
+    protected virtual void die()
+    {
+        if (currentHealth <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 }
