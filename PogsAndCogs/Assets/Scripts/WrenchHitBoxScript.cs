@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class WrenchHitBoxScript : MonoBehaviour
 {
-    public int atkDamage;
+    public int atkDamage = 1;
     public float lifeTime = 0.2f;
     private float spawnTime;
 
-    private int atkDamage = 1;
     // Start is called before the first frame update
     void Start()
     {

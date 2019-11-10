@@ -7,6 +7,7 @@ public class PlayerManager : MonoBehaviour
     public GameObject wrenchHit;
     public float attackSpeed = 0.5f;
     private float lastAttack = -10f;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class PlayerManager : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1") && lastAttack + attackSpeed < Time.time)
         {
+            animator.SetTrigger("Attack");
             lastAttack = Time.time;
             GameObject wrench = Instantiate(wrenchHit, transform.position, transform.rotation);
             wrench.transform.SetParent(this.gameObject.transform);
