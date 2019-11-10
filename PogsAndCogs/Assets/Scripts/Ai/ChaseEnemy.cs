@@ -7,6 +7,7 @@ public class ChaseEnemy : MonoBehaviour
     [SerializeField]
     private int damage = 10;
 
+    private Animator anim;
     
     public float moveTime = 0.1f;
 
@@ -31,6 +32,8 @@ public class ChaseEnemy : MonoBehaviour
         target = GameObject.FindGameObjectWithTag("Player").transform;
 
         inverseMoveTime = 1f / moveTime;
+
+        anim = GetComponent<Animator>();
     }
 
     protected void moveTo(Vector3 dest)
@@ -66,6 +69,15 @@ public class ChaseEnemy : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             moveTo(target.position);
+            anim.SetBool("FoundPlayer", true); // need new OnTriggerExit
+
+            anim.SetFloat("Speed", 1f); // this is so awkward lol. errors too. but implementation is weird o.o
+        }
+    }
+
+    private void OnTriggerExit(Collider2D col) {
+        if (col.gameObject.CompareTag("Player")) {
+            anim.SetBool("FoundPlayer", false);
         }
     }
 
