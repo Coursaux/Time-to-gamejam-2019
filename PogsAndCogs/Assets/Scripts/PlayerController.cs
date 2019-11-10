@@ -54,9 +54,11 @@ public class PlayerController : MonoBehaviour
         moveVelocity = Input.GetAxis("Horizontal") * speed;
         if (moveVelocity > 0) {
             isFacingRight = true;
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         } 
         if (moveVelocity < 0) {
             isFacingRight = false;
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x) * -1, transform.localScale.y, transform.localScale.z);
         }
 
         // move or slide
@@ -71,7 +73,7 @@ public class PlayerController : MonoBehaviour
         
     //Check if Grounded - ripped from DioTheHero - Harrold
     private bool checkGrounded() {
-        float distToGround = GetComponent<Collider2D>().bounds.extents.y;
+        float distToGround = GetComponent<CapsuleCollider2D>().bounds.extents.y;
         RaycastHit2D collision = Physics2D.Raycast(
             transform.position, 
             Vector2.down, 
@@ -86,7 +88,8 @@ public class PlayerController : MonoBehaviour
         isSliding = true;
 
         //collider
-        BoxCollider2D col = GetComponent<BoxCollider2D>();
+        //BoxCollider2D col = GetComponent<BoxCollider2D>();
+        CapsuleCollider2D col = GetComponent<CapsuleCollider2D>();
         col.size = new Vector2(col.size.x, col.size.y * 0.5f);
 
         // speed boost
@@ -99,7 +102,8 @@ public class PlayerController : MonoBehaviour
         isSliding = false;
 
         //collider
-        BoxCollider2D col = GetComponent<BoxCollider2D>();
+        //BoxCollider2D col = GetComponent<BoxCollider2D>();
+        CapsuleCollider2D col = GetComponent<CapsuleCollider2D>();
         col.size = new Vector2(col.size.x, col.size.y * 2f);
 
         anim.SetBool("Sliding", false);
