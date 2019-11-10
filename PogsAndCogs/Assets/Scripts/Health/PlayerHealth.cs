@@ -7,6 +7,7 @@ public class PlayerHealth : HealthManager
 {
     private AudioManager sound;
     private AudioSource source;
+    //private bool first = true;
     private void Start()
     {
         sound = GetComponent<AudioManager>();
@@ -16,7 +17,7 @@ public class PlayerHealth : HealthManager
     // Update is called once per frame
     void Update()
     {
-        this.die();
+        die();
     }
 
     protected override void die()
@@ -24,12 +25,19 @@ public class PlayerHealth : HealthManager
         if(currentHealth <= 0)
         {
             Debug.Log("we in");
-            sound.dyingSound();
+            //if (first)
+            //{
+               // sound.dyingSound();
+              //  first = false;
+            //}
+            
             Destroy(gameObject.GetComponent<PlayerController>());
             if(source.isPlaying == false)
             {
                 gameObject.SetActive(false);
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                Scene currScene = SceneManager.GetActiveScene();
+                SceneManager.LoadScene(currScene.name);
+                //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
     }
