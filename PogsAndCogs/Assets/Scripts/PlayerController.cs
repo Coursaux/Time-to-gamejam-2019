@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     //Movement
     public float speed;
     public float jumpForce;
-    float moveVelocity;
+    public float moveVelocity;
     public float slideSlow;
     private bool isSliding;
     private bool isFacingRight;
@@ -46,29 +46,19 @@ public class PlayerController : MonoBehaviour
 
         //Left Right Movement / sliding
         moveVelocity = Input.GetAxis("Horizontal") * speed;
-        isFacingRight = (moveVelocity > 0 ? true : false); // where else to update this??
+        if (moveVelocity > 0) {
+            isFacingRight = true;
+        } 
+        if (moveVelocity < 0) {
+            isFacingRight = false;
+        }
 
         // move or slide
         if (isSliding) {
-            int dir = (isFacingRight ? 1 : -1);
+            int dir = GetDirMult();
             rbody.velocity = new Vector2(rbody.velocity.x - slideSlow * Time.deltaTime * dir, rbody.velocity.y);
         } else {
             rbody.velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
-        }
-
-        // check click
-        if (Input.GetMouseButtonDown(0)) {
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
-
-            RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero, Mathf.Infinity, LayerMask.GetMask("Clickable"));
-
-            if (hit.collider != null) {
-                IClickable clickable = hit.collider.gameObject.GetComponent<IClickable>();
-                if (clickable != null) {
-                    clickable.Activate();
-                }
-            }
         }
     }
         
@@ -103,13 +93,8 @@ public class PlayerController : MonoBehaviour
         BoxCollider2D col = GetComponent<BoxCollider2D>();
         col.size = new Vector2(col.size.x, col.size.y * 2f);
     }
-}
 
-/*
-    slide:
-        on activate:
-            initial speed boost
-            cannot accelerate
-            slowly come to a stop
-            shrink hitbox
-*/
+    public int GetDirMult () {
+        return ((isFacingRight ? 1 : -1));
+    }
+}
