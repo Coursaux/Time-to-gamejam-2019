@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MySimpleParallax : MonoBehaviour
 {
-	public float paralaxSpeed;
+	public float parallaxSpeed = 0.5f;
 
 	private Transform followObject;
 	private float previousX;
@@ -17,7 +17,7 @@ public class MySimpleParallax : MonoBehaviour
 	
 	void Update () {
 		float deltaX = followObject.transform.transform.position.x - previousX;
-		transform.position += Vector3.right * (deltaX * paralaxSpeed);
+		transform.position += Vector3.right * (deltaX * parallaxSpeed);
 
 		previousX = followObject.transform.position.x;
 	}

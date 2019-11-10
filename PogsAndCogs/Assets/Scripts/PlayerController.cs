@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     // Properties
     Rigidbody2D rbody;
 
+    private Animator anim;
+
     //Movement
     public float speed;
     public float jumpForce;
@@ -18,6 +20,7 @@ public class PlayerController : MonoBehaviour
     void Start () 
     {
         rbody = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -27,16 +30,19 @@ public class PlayerController : MonoBehaviour
 
     void HandleInput () 
     {
+        anim.SetBool("Grounded", checkGrounded());
+
         //Jumping
         if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W))
         {
             if (checkGrounded())
             {
                 rbody.velocity = new Vector2(rbody.velocity.x, jumpForce);
+                anim.SetTrigger("Jump");
             }
         }
 
-        // init sliding motion
+        // Sliding
         if (Input.GetKey(KeyCode.Space) && !isSliding) {
             EnterSlide();
         }
@@ -60,6 +66,7 @@ public class PlayerController : MonoBehaviour
         } else {
             rbody.velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
         }
+        anim.SetFloat("Speed", Mathf.Abs(rbody.velocity.x));
     }
         
     //Check if Grounded - ripped from DioTheHero - Harrold
@@ -84,6 +91,8 @@ public class PlayerController : MonoBehaviour
 
         // speed boost
         rbody.velocity = new Vector2(rbody.velocity.x * 1.2f, rbody.velocity.y);
+
+        anim.SetBool("Sliding", true);
     }
 
     void ExitSlide () {
@@ -92,6 +101,8 @@ public class PlayerController : MonoBehaviour
         //collider
         BoxCollider2D col = GetComponent<BoxCollider2D>();
         col.size = new Vector2(col.size.x, col.size.y * 2f);
+
+        anim.SetBool("Sliding", false);
     }
 
     public int GetDirMult () {
