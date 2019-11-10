@@ -17,7 +17,9 @@ GameObject:
   - component: {fileID: 4440656364434591709}
   - component: {fileID: 9164764504481277140}
   - component: {fileID: 1555769715}
-  - component: {fileID: 8719418766007771763}
+  - component: {fileID: 1781585604082263197}
+  - component: {fileID: 63832934419342978}
+
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Player
@@ -210,11 +212,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f005cf72d8fab4cc1a38b4f9eeccb3c9, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -296,19 +298,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!70 &8719418766007771763
-CapsuleCollider2D:
+
+--- !u!114 &1781585604082263197
+MonoBehaviour:
+
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7574501225151227769}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.12, y: 0}
-  m_Size: {x: 1.13, y: 3.15}
-  m_Direction: 0
+
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17562196344ecb542bf820db3611d749, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalHealth: 100
+  currentHealth: 100
+--- !u!114 &63832934419342978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7574501225151227769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217a078d62d84c54191520c4e305c59e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackSound: {fileID: 8300000, guid: 32542b4250dacb34f9aa15fc96c01bc4, type: 3}
+  grassWalk: {fileID: 8300000, guid: d7f9b3b4f3280cc499ed116ddedcb3af, type: 3}
+  woodWalk: {fileID: 8300000, guid: 4391c973b5a60e545894d9a953c6ceb8, type: 3}
+  dieSound: {fileID: 8300000, guid: bccee704ac1d55d4085ca2d2dbb84d54, type: 3}
+
