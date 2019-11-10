@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -1088751299482325860}
   - component: {fileID: 1946167584687262898}
   - component: {fileID: 4796238690449819597}
+  - component: {fileID: 2050731204}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -120,6 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   jumpForce: 0
+  moveVelocity: 0
   slideSlow: 0
 --- !u!61 &-1088751299482325860
 BoxCollider2D:
@@ -162,6 +164,7 @@ MonoBehaviour:
   wrenchHit: {fileID: 5626098996002757779, guid: 2cada9928a89df74ab9ca3adaf0d54a6,
     type: 3}
   attackSpeed: 0.5
+  animator: {fileID: 2050731204}
 --- !u!114 &4796238690449819597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,3 +179,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   totalHealth: 100
   currentHealth: 100
+--- !u!95 &2050731204
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599270970267987817}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 110def6d14f0a0f428e6f7664ddc0ee3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
