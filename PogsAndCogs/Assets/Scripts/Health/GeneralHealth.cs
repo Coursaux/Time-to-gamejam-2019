@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class GeneralHealth : HealthManager
 {
-
     private void Update()
     {
         die();
