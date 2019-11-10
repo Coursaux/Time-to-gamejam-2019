@@ -19,7 +19,7 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         float offset;
-        PlayerController pc = player.GetComponent<PlayerController>();
+        PlayerController pc = player.gameObject.GetComponent<PlayerController>();
         if (pc.moveVelocity != 0) {
             offset = (pc.GetDirMult()) * cameraForwardOffset;
         } else {
