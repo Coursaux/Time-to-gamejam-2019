@@ -16,7 +16,7 @@ public class Background : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(camera.transform.position.x, camera.transform.position.y, 1);
+        transform.position = new Vector3(camera.transform.position.x, camera.transform.position.y, 90);
         transform.Rotate(Vector3.forward * (rotationSpeed * Time.deltaTime));
     }
 }
