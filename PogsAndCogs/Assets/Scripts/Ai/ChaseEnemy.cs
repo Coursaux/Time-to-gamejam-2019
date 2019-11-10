@@ -75,7 +75,7 @@ public class ChaseEnemy : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider2D col) {
+    private void OnTriggerExit2D(Collider2D col) {
         if (col.gameObject.CompareTag("Player")) {
             anim.SetBool("FoundPlayer", false);
         }

@@ -47,11 +47,11 @@ public abstract class AudioManager : MonoBehaviour
 
     protected virtual void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Grass" && rgb2D.velocity.x > 1f * orientation.localScale.z && source.isPlaying == false)
+        if (collision.gameObject.tag == "Grass" && (rgb2D.velocity.x > orientation.localScale.x || rgb2D.velocity.x < orientation.localScale.x) && source.isPlaying == false)
         {
             source.PlayOneShot(grassWalk, 1.0f);
         }
-        else if (collision.gameObject.tag == "Wood" && rgb2D.velocity.x > 1f * orientation.localScale.z && source.isPlaying == false)
+        else if (collision.gameObject.tag == "Wood" && (rgb2D.velocity.x > orientation.localScale.x || rgb2D.velocity.x < orientation.localScale.x) && source.isPlaying == false)
         {
             source.PlayOneShot(woodWalk, 1.0f);
         }

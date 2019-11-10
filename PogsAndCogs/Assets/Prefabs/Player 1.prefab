@@ -12,13 +12,12 @@ GameObject:
   - component: {fileID: 4746161140561928843}
   - component: {fileID: 5128382660838144032}
   - component: {fileID: 9004653549888250142}
-  - component: {fileID: 8996930228763977059}
   - component: {fileID: 6479352617337915026}
-  - component: {fileID: 8805928342493977459}
   - component: {fileID: 8127345479998300474}
   - component: {fileID: 1390764000071881508}
   - component: {fileID: 8019015718781935021}
   - component: {fileID: 3611585688653954520}
+  - component: {fileID: 455089524850508891}
   m_Layer: 0
   m_Name: Player 1
   m_TagString: Player
@@ -126,32 +125,6 @@ MonoBehaviour:
   jumpForce: 10
   moveVelocity: 0
   slideSlow: 5
---- !u!61 &8996930228763977059
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6144594353673860154}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.069563925, y: 0.18393362}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.11, y: 3.51}
-    newSize: {x: 0.64, y: 0.64}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.0396882, y: 2.6369898}
-  m_EdgeRadius: 0
 --- !u!114 &6479352617337915026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,20 +141,6 @@ MonoBehaviour:
     type: 3}
   attackSpeed: 0.5
   animator: {fileID: 8127345479998300474}
---- !u!114 &8805928342493977459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6144594353673860154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c292e98408c4c0d4291ddd92a00a000a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  totalHealth: 100
-  currentHealth: 100
 --- !u!95 &8127345479998300474
 Animator:
   serializedVersion: 3
@@ -327,3 +286,19 @@ MonoBehaviour:
   grassWalk: {fileID: 8300000, guid: d7f9b3b4f3280cc499ed116ddedcb3af, type: 3}
   woodWalk: {fileID: 8300000, guid: 4391c973b5a60e545894d9a953c6ceb8, type: 3}
   dieSound: {fileID: 8300000, guid: bccee704ac1d55d4085ca2d2dbb84d54, type: 3}
+--- !u!70 &455089524850508891
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6144594353673860154}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.04, y: 0}
+  m_Size: {x: 1.13, y: 3.56}
+  m_Direction: 0

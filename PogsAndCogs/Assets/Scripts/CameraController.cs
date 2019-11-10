@@ -26,7 +26,7 @@ public class CameraController : MonoBehaviour
             offset = (pc.GetDirMult()) * cameraForwardOffset * 0.5f;
         }
 
-        Vector3 newPosition = new Vector3(player.position.x + offset, player.position.y, -10);
+        Vector3 newPosition = new Vector3(player.position.x + offset, player.position.y, -20);
         transform.position = Vector3.Slerp(transform.position, newPosition, FollowSpeed * Time.deltaTime);
     }
 }
